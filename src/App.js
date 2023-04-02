@@ -1,13 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
-import WalletCard from './WalletCard';
+import "./App.css";
+import Dummy from "./Dummy";
 
 function App() {
-
   return (
     <div className="App">
-    <WalletCard/>
-
+      <Dummy />
     </div>
   );
 }
